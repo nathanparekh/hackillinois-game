@@ -1,0 +1,100 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background-image: url('background.png'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.game-container {
+    /* Your game container styles, if needed */
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#choice1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-200%, 600%);
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#choice2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, 600%);
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#choice3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(300%, 600%);
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#health {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-670%, 410%);
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#attack {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-770%, 180%);
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.story-container {
+    position: absolute;
+    top: 28%;
+    left: 10%; /* Adjust this value as needed to move the container to the right */
+    max-width: calc(50% - 40px); /* Adjust the max-width as needed, the 40px accounts for padding */
+    padding: 270px;
+    font-size: 20px;
+    color: white;
+    text-align: left; /* Align text to the left */
+    overflow: hidden; /* Prevents the text from overflowing the container */
+}
+
+.image-container img {
+    position: absolute;
+    width: 60%;
+    height: 50%;
+    transform: translate(53%, 20%);
+    object-fit: cover; /* This will ensure that the image covers the entire area of the container without distorting its aspect ratio */
+}
+
+
